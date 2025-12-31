@@ -1,4 +1,14 @@
-# PreconditioningRBFKernels
+## Research Project: Kernel Stability & Numerical Methods
 
-Investigates numerical instability in ML models using smooth RBF kernels, analyzing how clustered data causes ill-
-conditioned kernel matrices. Developed stable & precision-robust kernel computations using Python and mpmath.
+Advanced numerical experiments exploring kernel behavior, conditioning, and stable differencing—part of a research study on Gaussian Processes and kernel methods.
+
+### **Experiments with Clustered Points and Preconditioning**
+- Studies ill-conditioning of kernel matrices when data points cluster.
+- Implements and analyzes preconditioning strategies.
+- Visualizes conditioning numbers for different configurations.
+
+### **IMQ Kernels: Stable Differencing Using mpmath**
+- High-precision numerical experiments using `mpmath`.
+- Implements stable differencing formulas for IMQ kernels.
+- Demonstrates how small perturbations and spacing affect kernel stability.
+- Includes plots and comparisons of naive vs stable formulations.
